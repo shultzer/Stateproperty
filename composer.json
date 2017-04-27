@@ -1,0 +1,19 @@
+{
+    "name": "user/stateproperty",
+    "authors": [
+        {
+            "name": "Shultz",
+            "email": "skorohods@mail.ru"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "Controllers/",
+            "Core\\": "Core/",
+            "Model\\": "Model/"
+        }
+    }
+}
