@@ -4,6 +4,6 @@
 
     class InsertController
     {   public function index() {
-        echo 'Hello';
+        require "views/header.php";
         }
     }

@@ -8,11 +8,13 @@
 
         public static $routes=[
             'GET' => [
+                        'header'=>'App\MainController@index',
                         ''=>'App\MainController@index',
-                        'insert'=>'App\InsertController@index',
+                        'insertletter'=>'App\InsertController@index',
                         'show'=>'App\ShowController@index'
                      ],
             'POST'=>[
+                        'login'=>'LoginController@login',
                         'insertletter'=>'InsertController@insertletter',
                         'insertorder'=> 'InsertController@insertorder',
                         'insertreport'=>'InsertController@insertreport'
